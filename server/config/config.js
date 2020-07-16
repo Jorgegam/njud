@@ -13,11 +13,11 @@ process.env.NODE_ENV =process.env.NODE_ENV || 'dev';
 // ======================
 let urlDB;
 
-/* if ( process.env.NODE_ENV === 'dev' ) {
+if ( process.env.NODE_ENV === 'dev' ) {
     urlDB = 'mongodb://localhost/cafe'
 }
-else{ */
+else{
     urlDB = 'mongodb+srv://alexis:ayQSxxMDXzM6qPK@cluster0.mtzop.mongodb.net/cafe'
-//}   
+}   
 
 process.env.URLDB = urlDB;
